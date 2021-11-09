@@ -8,5 +8,5 @@
   gather_facts: false
 
   roles:
-  - powerstore_volume_info
+  - powerstore.powerstore_volume_info
   #- { role: powerstore_create_volume, vol_names: "{{ vol_names }}" }
