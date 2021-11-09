@@ -1,0 +1,12 @@
+#  Copyright (c) 2021 Dell Inc. or its subsidiaries.
+#  All Rights Reserved.
+
+---
+- name: Volume operations on PowerStore
+  hosts: localhost
+  connection: local
+  gather_facts: false
+
+  roles:
+  - powerstore_volume_info
+  #- { role: powerstore_create_volume, vol_names: "{{ vol_names }}" }
