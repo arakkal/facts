@@ -9,11 +9,11 @@
 
   tasks:
   - name: Get volume details using ID
-      dellemc.powerstore.dellemc_powerstore_volume:
-        array_ip: "{{array_ip}}"
-        verifycert: False
-        user: "{{user}}"
-        password: "{{password}}"
-        vol_name: "{{vol_name}}"
-        state: "present"
+    dellemc.powerstore.dellemc_powerstore_volume:
+      array_ip: "{{array_ip}}"
+      verifycert: false
+      user: "{{user}}"
+      password: "{{password}}"
+      vol_name: "{{vol_name}}"
+      state: "present"
 
