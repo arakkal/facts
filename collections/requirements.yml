@@ -1,2 +1,5 @@
 # from GitHub
-- src: https://github.com/dell/ansible-powerstore
+---
+collections:
+  #- src: https://github.com/dell/ansible-powerstore
+  - name: dellemc.powerstore
