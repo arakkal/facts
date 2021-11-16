@@ -5,3 +5,5 @@ collections:
   - name: dellemc.powerstore
   - name: apex.powerstore
     source: https://github.com/arakkal/apex_powerstore
+    version: main
+    type: git
