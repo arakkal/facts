@@ -6,7 +6,10 @@
   hosts: localhost
   connection: local
   gather_facts: false
+  
+  collections:
+    - apex.pwerstore
 
   roles:
-  - apex.pwerstore.powerstore_volume_info
+  - powerstore_volume_info
   #- { role: powerstore_create_volume, vol_names: "{{ vol_names }}" }
