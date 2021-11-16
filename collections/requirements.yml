@@ -3,4 +3,3 @@
 collections:
   #- src: https://github.com/dell/ansible-powerstore
   - name: dellemc.powerstore
-  - src: https://github.com/arakkal/apex_powerstore
