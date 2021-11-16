@@ -1,5 +1,0 @@
-# from GitHub
----
-roles:
-  - src: https://github.com/arakkal/apex_powerstore
-  #- name: dellemc.powerstore
