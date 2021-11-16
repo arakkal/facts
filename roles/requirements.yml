@@ -1,5 +1,5 @@
 # from GitHub
 ---
-collections:
+roles:
   - src: https://github.com/arakkal/powerstore/tree/main/roles
   #- name: dellemc.powerstore
