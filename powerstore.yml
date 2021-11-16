@@ -8,7 +8,7 @@
   gather_facts: false
   
   collections:
-    - apex.pwerstore
+    - apex.powerstore
 
   roles:
   - powerstore_volume_info
